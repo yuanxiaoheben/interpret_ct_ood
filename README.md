@@ -1,4 +1,4 @@
-# recomb69
+# Interpret Cell Types OOD
 Code repository for RECOMB Review (beta version). An Interpret Method for IND Cell Type Annotation and OOD Detection.
 
 # Useage
