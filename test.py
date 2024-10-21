@@ -24,7 +24,7 @@ cuda_str = 'cuda' if t_configs.gpu_idx is None else 'cuda:{}'.format(t_configs.g
 device = torch.device(cuda_str if torch.cuda.is_available() else 'cpu')
 t_configs.device = str(device)
 
-data_folder = ''
+data_folder = "./datasets/DOWNLOAD_FOLDER"
 
 # read in MEX format matrix as table
 mat = scipy.io.mmread(os.path.join(data_folder, "matrix.mtx")).toarray()
